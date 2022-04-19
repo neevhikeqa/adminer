@@ -11,7 +11,7 @@ build:
     image_template: adminer-4.8
 
 deploy:
-    context: alpha/DEV
+    context:  neevhikeqa/DEV
     replicas: 1
     port:
     - 8080
